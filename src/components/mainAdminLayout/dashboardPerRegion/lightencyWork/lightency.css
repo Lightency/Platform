@@ -1,0 +1,202 @@
+.cc {
+  font-family: sans-serif;
+  padding-top: 50px;
+  height: 450px;
+  color: white;
+  background-color: #272e3a;
+}
+.first-part-image {
+  height: 50%;
+  width: 100%;
+  border-bottom: solid white;
+  position: relative;
+}
+
+.first-image {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 12%;
+}
+.first-image-copy {
+  position: absolute;
+  bottom: -3px;
+  left: 11%;
+  width: 8%;
+}
+
+.two-virtica-line-container {
+  width: 50px;
+  height: 100%;
+
+  left: 28%;
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+
+  justify-content: space-between;
+}
+/***********THIRD PART *******************/
+.two-virtica-line-container div:nth-child(1) {
+  width: 50%;
+  height: 30%;
+  border-right: solid white;
+}
+.two-virtica-line-container div:nth-child(2) {
+  width: 90%;
+  height: 15%;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two-virtica-line-container div:nth-child(2) img {
+  width: 70%;
+  height: 70%;
+}
+.two-virtica-line-container div:nth-child(3) {
+  width: 50%;
+  height: 15%;
+  border-right: solid white;
+}
+.two-virtica-line-container div:nth-child(4) {
+  width: 100%;
+  height: 40%;
+  position: relative;
+}
+.two-virtica-line-container div:nth-child(4) img {
+  position: absolute;
+  left: -19px;
+  bottom: -1px;
+  width: 98px;
+}
+/******************THIRD PART*********************/
+
+.second-image {
+  position: absolute;
+  bottom: -2px;
+  left: 40%;
+  width: 8%;
+}
+
+/*************************THIRD-PART-2***********************/
+.two-virtica-line-container-2 {
+  width: 50px;
+  height: 100%;
+  bottom: 0;
+  left: 57%;
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+
+  justify-content: space-between;
+}
+
+.two-virtica-line-container-2 div:nth-child(1) {
+  width: 50%;
+  height: 30%;
+  border-right: solid white;
+}
+.two-virtica-line-container-2 div:nth-child(2) {
+  width: 90%;
+  height: 15%;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two-virtica-line-container-2 div:nth-child(2) img {
+  width: 70%;
+  height: 70%;
+}
+.two-virtica-line-container-2 div:nth-child(3) {
+  width: 50%;
+  height: 15%;
+  border-right: solid white;
+}
+.two-virtica-line-container-2 div:nth-child(4) {
+  width: 100%;
+  height: 40%;
+  position: relative;
+}
+.two-virtica-line-container-2 div:nth-child(4) img {
+  position: absolute;
+  left: -19px;
+  bottom: -1px;
+  width: 98px;
+}
+/****************************/
+.circle-container {
+  position: absolute;
+  right: 10%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px dotted gold;
+  border-radius: 50%;
+}
+
+.middle-sun {
+  position: absolute;
+  top: -59px;
+  left: -63px;
+  fill: url(#my-cool-gradient);
+}
+.circle-container p {
+  position: absolute;
+  z-index: 14444;
+  left: 25%;
+  top: 25%;
+  font-size: 27px;
+  font-weight: bold;
+}
+/**********BOTTOM PART**********/
+.cc-2 {
+  height: 50%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.battery-bottom {
+  width: 80px;
+  height: 50%;
+  position: relative;
+  border-left: solid;
+}
+.battery-bottom-item {
+  position: absolute;
+  border: solid gold;
+  border-radius: 7px;
+  width: 100%;
+  height: 30%;
+  bottom: -30px;
+  padding: 2px;
+  left: -40px;
+}
+.battery-bottom-border {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.battery-bottom-border div:nth-child(1) {
+  width: 70%;
+  height: 100%;
+  background-color: gold;
+}
+.battery-bottom-border div:nth-child(2) {
+  width: 5px;
+  height: 10px;
+  background-color: gold;
+  position: absolute;
+  right: -10px;
+  top: 30%;
+}

@@ -1,0 +1,42 @@
+.on-off {
+  width: 61px;
+  height: 22px;
+  border: 1px solid gold;
+  position: relative;
+  overflow: hidden;
+  padding: 5px;
+  background: #272e3a;
+  border-radius: 5px;
+}
+.off {
+  position: absolute;
+  z-index: 14444444444444444444;
+  right: 6px;
+  font-size: 12px;
+  top: 0px;
+  font-weight: bold;
+  color: gold;
+}
+
+.on {
+  position: absolute;
+  z-index: 14444444444444444444;
+  left: 8px;
+  top: 0px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.on-off > div {
+  color: black;
+  width: 81px;
+  height: 200px;
+  background: gold;
+  position: absolute;
+  left: -15px;
+  top: -20px;
+  z-index: 1;
+  transform: rotate(-10deg);
+  -ms-transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  transform: rotate(-30deg);
+}

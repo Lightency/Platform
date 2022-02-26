@@ -1,0 +1,122 @@
+.region-container {
+  /* background-color: #131926; */
+  border: #272e3a;
+  color: white;
+  padding: 15px;
+  border-bottom: 1px dotted gold;
+  text-align: left;
+  /* border-radius: 15px; */
+  height: 560px;
+  overflow: auto;
+  position: relative;
+}
+
+.region-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 0px;
+}
+.fa-map-marker-alt {
+  text-align: center;
+  color: #e5f326;
+  background-image: linear-gradient(12deg, #f3ed26, #eede06);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 10s infinite linear;
+  font-size: 21px;
+}
+.region-container h3 {
+  padding: 10px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.region-container li {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.region-container li:hover {
+  background-color: #1c2230;
+  margin-left: 3px;
+  color: rgb(230, 215, 9);
+}
+.fa-trash-alt {
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  color: #e5f326;
+  background-image: linear-gradient(12deg, #f3ed26, #eede06);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 10s infinite linear;
+}
+.fa-trash-alt:hover {
+  font-size: 22px;
+}
+.region-container li:hover .fa-trash-alt {
+  opacity: 1;
+}
+.add-region-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: -15px;
+  background-color: inherit;
+  z-index: 14;
+  background-color: #272e3a;
+  flex-wrap: wrap;
+}
+.search-region {
+  border: 2px solid gold;
+  background-color: transparent;
+  border-radius: 3px;
+  color: white;
+  padding: 0 0 0 8px;
+  margin-bottom: 5px;
+  width: 50%;
+}
+.search-region::placeholder {
+  color: gold;
+}
+@media screen and (max-width: 992px) {
+  .region-container {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+}
+
+/*//****************/
+.leaflet-control-attribution a {
+  display: none !important;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .search-region {
+    width: 90%;
+  }
+}
+
+/***************SCROLL BAR REGION CONTAINER************/
+/* Scrollbar styles */
+.region-container::-webkit-scrollbar {
+  width: 7px;
+  height: 12px;
+}
+
+.region-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px rgb(243, 230, 52);
+  border-radius: 10px;
+}
+
+.region-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(243, 230, 52);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}

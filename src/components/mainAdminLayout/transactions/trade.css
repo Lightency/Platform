@@ -1,0 +1,140 @@
+.zebra-table {
+  color: white !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  width: 100% !important;
+}
+
+.zebra-table th,
+.zebra-table td {
+  text-align: left !important ;
+  padding: 16px !important;
+  box-sizing: border-box !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.zebra-table tr:nth-child(1) {
+  margin-bottom: 5px;
+}
+.zebra-table tr:nth-child(odd) {
+  background-color: rgb(47, 53, 67) !important;
+}
+.zebra-table tr:nth-child(even) {
+  background-color: rgb(39, 46, 58) !important;
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+/*********************************************/
+.box-container {
+  width: 350px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 220px;
+  border-radius: 12px;
+  background-color: #2f3543;
+}
+.total-of-tokens {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.red-min {
+  color: red !important;
+}
+.sell-buy {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  height: 65px;
+}
+.sell-buy-item {
+  padding: 6px;
+  display: flex;
+  width: 80px;
+  justify-content: space-around;
+  align-items: center;
+}
+.sell-token {
+  display: flex;
+  flex-direction: column;
+}
+.sell-token span:nth-child(1) {
+  color: rgb(126, 130, 138);
+}
+.grey-title {
+  color: rgb(126, 130, 138);
+}
+.sell-token {
+  font-size: 13px;
+}
+.number-of-tokens {
+  font-size: 38px;
+}
+.chevron-down {
+  width: 25px;
+  height: 60px;
+  position: relative;
+}
+#Layer_1 {
+  fill: rgb(243, 74, 75);
+  position: absolute;
+  left: 3px;
+  top: 40%;
+  width: 15px;
+  height: 15px;
+}
+#Capa_1 {
+  fill: rgb(0, 205, 130);
+  position: absolute;
+  left: 0%;
+  top: 18px;
+  width: 14px;
+  height: 15px;
+}
+
+.schema-id {
+  color: gray;
+
+  overflow: auto;
+}
+.schema-id::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.schema-id::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px gray;
+  border-radius: 10px;
+}
+
+.schema-id::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(226, 223, 21);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+/************************/
+.sell,
+.buy {
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+}
+
+.buy:hover {
+  background-color: rgb(95, 148, 245);
+}
+.sell:hover {
+  background-color: rgb(243, 74, 75);
+}
+/********START MEDIA QUERIES***********/
+@media screen and (max-width: 1170px) and (min-width: 296px) {
+  .box-container {
+    width: 286px;
+  }
+}

@@ -1,0 +1,59 @@
+.chart-container {
+  width: 100%;
+}
+
+.real-data {
+  display: flex;
+  justify-content: space-between;
+  width: 100;
+  overflow: auto;
+}
+.real-data-title {
+  color: #ffde3b;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+}
+
+.real-data-data {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3);
+}
+
+.real-data-unit {
+  color: #ffde3b;
+}
+.chartjs-render-monitor {
+  height: 100px !important;
+}
+/***************************/
+.chart-break {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+
+/********REAL DATA SCROLL BAR*******/
+.real-data::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.real-data::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgb(243, 230, 52);
+  border-radius: 10px;
+}
+
+.real-data::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(243, 230, 52);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+/*******PRICING CHART*****************/
+.price-chart .chartjs-render-monitor {
+  height: 450px !important;
+}

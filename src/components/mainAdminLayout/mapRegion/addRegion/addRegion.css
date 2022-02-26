@@ -1,0 +1,91 @@
+.add-region-block {
+  width: 40%;
+  border: solid;
+  height: 300px;
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+}
+.add-region-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.add-region-input {
+  width: 40% !important;
+}
+.add-region-map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn-primary {
+  border: #ffdd00 !important;
+  background-color: #ffdd00 !important;
+  color: black !important;
+
+  width: 150px;
+}
+.btn-secondary {
+  color: #000 !important;
+  background-color: #dd3f3b !important;
+  border-color: #dd3f3b !important;
+  /* width: 150px; */
+  color: black !important;
+}
+.modal-content {
+  background-color: rgba(14, 14, 14, 0.6) !important;
+  color: white !important;
+  border: 1px dotted gold !important;
+}
+.modal-header button {
+  color: white !important;
+}
+.modal-header {
+  border-bottom: transparent !important;
+}
+.modal-body input {
+  background-color: rgba(14, 14, 14, 0.6) !important;
+
+  border: 1px solid #ffdd00;
+  color: #ffdd00 !important;
+}
+.modal-btn {
+  color: #ffdd00;
+  border: solid 2px #ffdd00;
+  padding: 10px;
+  background-color: rgba(14, 14, 14, 0.6) !important;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.modal-body input::placeholder {
+  color: gold;
+}
+.modal-footer {
+  border-top: transparent !important;
+}
+.modal-body input:focus {
+  background-color: rgba(14, 14, 14, 0.6) !important;
+}
+/*******************************/
+@media screen and (max-width: 996px) {
+  .add-region-content h2 {
+    font-size: 12px;
+  }
+  .add-region-content div {
+    width: 100px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .add-modal-btn {
+    width: 118px;
+    height: 43px;
+  }
+}

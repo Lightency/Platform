@@ -1,0 +1,51 @@
+.battery-container {
+  width: 150px;
+  border: 3px solid gold;
+  height: 45px;
+  padding: 2px;
+  border-radius: 7px;
+}
+
+.battery-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+.battery-box div:nth-child(1) {
+  color: white;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+.battery-box div:nth-child(1) p {
+  font-size: 22px;
+  font-weight: bold;
+}
+.battery-box div:nth-child(1) span {
+  color: #ffdd00;
+  font-size: 20px;
+  font-weight: initial;
+}
+.battery-power {
+  color: #ffde3b !important;
+  font-size: 16px !important;
+  font-weight: bolder !important;
+  margin-top: -10px;
+}
+.battery-box div:nth-child(3) {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.battery-box div:nth-child(3) span {
+  color: #ffdd00;
+}
+.battery-box div:nth-child(3) p {
+  margin-top: 5px;
+}

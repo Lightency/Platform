@@ -1,0 +1,74 @@
+.states-row {
+  padding: 30px;
+}
+.states-small-box {
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #2f3543;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.title-reload {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 7px;
+  align-items: flex-start;
+}
+.title-time {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+}
+.fa-redo-alt {
+  color: gray;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.fa-redo-alt:hover {
+  color: gold;
+}
+.small-box-title {
+  font-size: 19px;
+}
+.small-box-time {
+  color: grey;
+}
+.small-box-content {
+  border: 2px solid #292f3c;
+  height: 70%;
+  overflow: auto;
+
+  background-color: #2f3543;
+  text-align: center;
+  text-align: left;
+}
+.small-box-content::-webkit-scrollbar {
+  width: 3px !important;
+  height: 7px !important;
+}
+
+.small-box-content::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #1a1818 !important;
+  border-radius: 10px;
+}
+
+.small-box-content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #b3adad !important;
+
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/****************START MEDIA QUERIES******************/
+@media screen and (max-width: 767px) {
+  .states-small-box {
+    margin-bottom: 10px;
+  }
+}

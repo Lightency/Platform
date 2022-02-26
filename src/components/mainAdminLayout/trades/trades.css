@@ -1,0 +1,140 @@
+.order-book-title-container {
+  padding: 20px 0px;
+}
+.order-book {
+  color: white !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  width: 100% !important;
+}
+.order-book-titles {
+  color: rgb(180, 175, 175);
+  font-size: 13px !important;
+}
+.sell-table-container {
+  margin-bottom: 50px;
+  height: 300px;
+  overflow: auto;
+}
+.xo,
+.sell-table-container::-webkit-scrollbar {
+  width: 3px !important;
+  height: 7px !important;
+}
+
+.xo,
+.sell-table-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #1a1818 !important;
+  border-radius: 10px;
+}
+
+.xo,
+.sell-table-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #b3adad !important;
+
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.sel {
+  height: 250px !important;
+
+  overflow: scroll;
+}
+.sel tr td:nth-child(odd) {
+  font-weight: bold;
+  color: rgb(196, 63, 63);
+  text-shadow: 2px 5px 3px rgba(255, 0, 0, 0.2),
+    0px -5px 15px rgba(255, 0, 0, 0.3);
+}
+/************BUY****************/
+.buy tr td:nth-child(odd) {
+  color: rgb(68, 128, 115);
+  text-shadow: 2px 5px 3px rgba(68, 128, 115, 0.4),
+    0px -5px 15px rgba(68, 128, 115, 0.6);
+}
+.match-tab {
+  height: 350px;
+  overflow: auto;
+}
+.match-tab::-webkit-scrollbar {
+  width: 3px !important;
+  height: 7px !important;
+}
+
+.match-tab::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #1a1818 !important;
+  border-radius: 10px;
+}
+
+.match-tab::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #b3adad !important;
+
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.matching-table thead th {
+  border-bottom: none !important;
+}
+.order-book th,
+.order-book td {
+  text-align: left !important ;
+  padding: 5px !important;
+  font-size: 14px;
+  box-sizing: border-box !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.order-book tr:nth-child(1) {
+  margin-bottom: 5px;
+}
+.order-book tr:nth-child(odd) {
+  background-color: rgb(47, 53, 67) !important;
+  height: 20px !important;
+}
+.order-book tr:nth-child(even) {
+  background-color: rgb(39, 46, 58) !important;
+  height: 20px !important;
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+.matching-table td,
+th {
+  border-top: transparent !important;
+  color: white;
+  font-size: 14px;
+  padding: 5px !important;
+}
+.matching-table th {
+  color: #b3adad;
+}
+.data-table-array {
+  padding: 30px;
+  height: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+}
+.data-table-array input {
+  background: transparent;
+  border: 1px solid #b3adad;
+  color: #b3adad !important;
+  border-radius: 7px;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 30px;
+  margin-top: -5px;
+}
+.my-table {
+  height: 350px;
+  overflow: auto;
+}
+/*******************/
+@media screen and (max-width: 960px) {
+  .data-table-array {
+    height: 100px;
+  }
+}

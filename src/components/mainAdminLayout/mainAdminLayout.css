@@ -1,0 +1,16 @@
+.main-admin-screen {
+  background-color: #272e3a;
+  height: 100vh;
+}
+@media screen and (max-width: 992px) {
+  .main-admin-screen {
+    background-color: #272e3a;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hidden {
+    display: none;
+  }
+}
